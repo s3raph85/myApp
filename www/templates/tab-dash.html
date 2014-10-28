@@ -1,0 +1,35 @@
+<ion-view title="Dashboard">
+  <ion-content class="padding">
+      <button class="button button-block button-positive">
+          Get Geo Deals
+      </button>
+      
+      <div class="list card">
+          
+          <div class="item item-avatar">
+              <div class="row">
+                  <div class="col col-75">$6 Teriyaki Rice</div>
+                  <div class="col">Distance</div>
+                  <div class="col">Expiry</div>
+              </div> <!-- /row -->
+          </div> <!-- /item-avatar -->
+          
+          <div class="item item-body">  
+              <img class="full-image" src="img/ionic.png">
+                  <p>
+                  CREATING
+                  {{ geoLocation.lat }}
+                   {{ geoLocation.long }}
+                  </p>
+                  <p>
+                  <a href="#" class="subdued">1 Like</a>
+                  <a href="#" class="subdued">5 Comments</a>
+                  </p>
+                  </div><!-- /item-body -->
+
+      
+      </div><!-- /list card -->
+
+      
+  </ion-content>
+</ion-view>
